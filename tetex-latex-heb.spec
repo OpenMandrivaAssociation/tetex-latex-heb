@@ -10,6 +10,7 @@ Release:	%{release}
 Source0:	ftp://linux.org.il/pub/Hebrew/HebLatex/Ivritex/Fonts/hebfonts.tar.bz2
 License:	distributable
 Group:		Publishing
+BuildRoot:	%{_tmppath}/%{name}-%{version}-buildroot
 URL:		http://www.dsg.technion.ac.il/heblatex/
 Requires:	tetex >= 1.0.7
 BuildArch:	noarch
