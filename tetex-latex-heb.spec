@@ -1,7 +1,7 @@
 %define	texmf	/usr/share/texmf
 %define	name	tetex-latex-heb
 %define	version	1.0
-%define	release	%mkrel 7
+%define	release	%mkrel 8
 
 Summary:	Files for processing Hebrew LaTeX documents
 Name:		%{name}
