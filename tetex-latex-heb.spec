@@ -83,3 +83,54 @@ rm -rf $RPM_BUILD_ROOT
 %doc README test-heb.tex
 %{texmf}/fonts/source/hebrew
 
+
+
+%changelog
+* Wed Sep 09 2009 Thierry Vignaud <tvignaud@mandriva.com> 1.0-12mdv2010.0
++ Revision: 434347
+- rebuild
+
+* Sat Aug 02 2008 Thierry Vignaud <tvignaud@mandriva.com> 1.0-11mdv2009.0
++ Revision: 261508
+- rebuild
+
+* Wed Jul 30 2008 Thierry Vignaud <tvignaud@mandriva.com> 1.0-10mdv2009.0
++ Revision: 254397
+- rebuild
+
+* Wed Feb 06 2008 Thierry Vignaud <tvignaud@mandriva.com> 1.0-8mdv2008.1
++ Revision: 162907
+- rebuild because of missing i586 package
+- kill re-definition of %%buildroot on Pixel's request
+
+  + Olivier Blin <oblin@mandriva.com>
+    - restore BuildRoot
+
+* Thu Aug 23 2007 Thierry Vignaud <tvignaud@mandriva.com> 1.0-7mdv2008.0
++ Revision: 70416
+- use %%mkrel
+
+
+* Tue Jul 22 2003 Per Øyvind Karlsen <peroyvind@sintrax.net> 1.0-6mdk
+- rebuild
+- cosmetics
+
+* Thu May 23 2002 Gwenole Beauchesne <gbeauchesne@mandrakesoft.com> 1.0-5mdk
+- Automated rebuild with gcc 3.1-1mdk
+
+* Mon Sep 17 2001 Giuseppe Ghibò <ghibo@mandrakesoft.com> 1.0-4mdk
+- removed .sty, .fd, .def, .fdd files (now included in babel).
+- added postun.
+
+* Fri Oct 20 2000 Giuseppe Ghibò <ghibo@mandrakesoft.com> 1.0-3mdk
+- included fonts.
+- updated %%post script.
+- rebuilt for 7.2.
+
+* Thu Apr 20 2000 Warly <warly@technion.ac.il> 1.0-2mdk
+- change group: Publishing
+
+* Sat Feb 05 2000 Tzafrir Cohen <tzafrir@technion.ac.il> 1.0-1mdk
+- created the package. Added a README and a test doc
+- adapted to MDK by Pablo Saratxaga <pablo@mandrakesoft.com>
+
